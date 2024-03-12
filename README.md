@@ -13,6 +13,15 @@ Windows Tricks and Tips
   if result shows permanently activated: Its good
    If it shows some date and time: its pirated version.
 
+**To Scan for viruses:**
+•	Windows + r
+•	Type mrt
+•	Ok
+•	Then follow instructions. 
+
+**To refresh screen and drivers (If screen turning black)**
+•	Press these at once: Windows + Shift + Ctrl + B
+
 **To make Computer Faster:**
   Step 1:
     •	Press windows + r
@@ -35,7 +44,6 @@ Windows Tricks and Tips
     •	Search for %TEMP%
     •	Delete all those appeared junky files. 
     •	This will clear unwanted files to assist in making computer faster. 
-
 
 
 **To check full specs of a Computer:**
