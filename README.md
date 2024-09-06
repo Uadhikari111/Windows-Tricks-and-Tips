@@ -2,17 +2,14 @@
 Windows Tricks and Tips
 
 Windows Tricks and Tips
-
- **To Run Command Prompt (Cmd) as Administrator:**
-•	In the search box, type cmd
-•	Right click – Run as Administrator 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **To check if your windows is legit or pirated version:**
 •	Run Cmd as administrator.
 •	Type slmgr /xpr 
   if result shows permanently activated: Its good
    If it shows some date and time: its pirated version.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **To Scan for viruses:**
 •	Windows + r
 •	Type mrt
@@ -21,8 +18,9 @@ Windows Tricks and Tips
 
 **To refresh screen and drivers (If screen turning black)**
 •	Press these at once: Windows + Shift + Ctrl + B
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**To make Computer Faster:**
+**If your computer is running slow and you want to make  Faster:**
   Step 1:
     •	Press windows + r
     •	Type msconfig
@@ -44,11 +42,13 @@ Windows Tricks and Tips
     •	Search for %TEMP%
     •	Delete all those appeared junky files. 
     •	This will clear unwanted files to assist in making computer faster. 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **To check full specs of a Computer:**
 •	Press Win + r
 •	Search for msinfo32
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **To Activate Windows 11 pro for free:**
   Run Cmd as Administrator 
@@ -86,4 +86,16 @@ Windows Tricks and Tips
   slmgr /ato
   
   Congratulations. You have finally activated Windows 11 pro. You can check it at: Settings//Systems//Activation. (Activation can be found under Updates and security in Windows 10)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Activate Microsoft Office using Microsoft Activation Scripts(MAS)
+Method 1 - PowerShell (Recommended)
+•	Open Powershell (Not CMD). To do that, right-click on the start menu and select PowerShell or Terminal.
+•	Copy and paste the code below and press enter
+irm https://get.activated.win | iex
+
+or (deprecated, will be retired on Dec 31 2024, use above instead)
+irm https://massgrave.dev/get | iex
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
